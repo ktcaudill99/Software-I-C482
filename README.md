@@ -4,21 +4,22 @@ WGU-Software-I-C482
 
 created with 
 
-Product Version: Apache NetBeans IDE 12.4
+  Product Version: Apache NetBeans IDE 12.4
 
-Java: 16.0.2; 
+    Java: 16.0.2; 
 
-Runtime: Java(TM) SE Runtime Environment 16.0.2+7-67
+    Runtime: Java(TM) SE Runtime Environment 16.0.2+7-67
 
 
 
-Product Version: JavaFX Scene Builder 16.0.0
+  Product Version: JavaFX Scene Builder 16.0.0
 
-Build Information: Version 16.0.0
+    Build Information: Version 16.0.0
 
-JavaFX Version: 16
+    JavaFX Version: 16
 
-Java Version: 16+36, AdoptOpenJDK
+    Java Version: 16+36, AdoptOpenJDK
+
 
 
 
@@ -33,6 +34,7 @@ launch file: FXMain opens main screen
 -Add Part = AddPartFXML (layout) AddPartFXMLController (controls/actions of AddPartFXML)
 
 -Modify Part = ModifyPartFXML (layout) FXMLController (controls/actions of ModifyPartFXML)
+
 
 
 
