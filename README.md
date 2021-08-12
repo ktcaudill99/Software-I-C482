@@ -1,6 +1,11 @@
 # Software-I-C482
 
-WGU-Software-I-C482
+WGU
+
+Software-I-C482
+
+QKM2 — QKM2 TASK 1: OBJECT-ORIENTED APPLICATION DEVELOPMENT
+
 ____________________________________________________________________________________________________________________________________________
 
 created with 
