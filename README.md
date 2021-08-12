@@ -47,6 +47,7 @@ ________________________________________________________________________________
 
 
 COMPETENCIES
+
 430.02.05 : Classes and Interfaces
 
 The graduate designs software solutions with appropriate classes, objects, methods, and interfaces to achieve specific goals.
@@ -67,7 +68,10 @@ The graduate incorporates simple exception handling in application development f
 
 The graduate develops user interfaces to meet project requirements.
 
+__________________________________________________________________________________________________________________________________
+
 INTRODUCTION
+
 Throughout your career in software design and development, you will be asked to create applications with various features and functionality based on business requirements. For this assessment, you will create a Java desktop application using the solution statements provided in the requirements section of this assessment.
 
 The skills you showcase in your completed application will be useful in responding to technical interview questions for future employment. This application may also be added to your portfolio to show to future employers.
@@ -81,11 +85,19 @@ Your submission should include a zip file with all the necessary code files to c
 In NetBeans, zip your file by going to File > Export Project > To ZIP and click Export. In IntelliJ IDEA, go to File > Export to Zip File and click OK. If you try to zip your project files with an external program, it will include the build files and make the zip files too large for submission.
 
 Note: You may receive an error message upon submitting your files because the automated plagiarism detectors will not be able to access the zipped file, but the evaluation team members will run their checks manually when evaluating your submission.
+
+__________________________________________________________________________________________________________________________________
+
 SCENARIO
+
 You are working for a small manufacturing organization that has outgrown its current inventory system. Members of the organization have been using a spreadsheet program to manually enter inventory additions, deletions, and other data from a paper-based system but would now like you to develop a more sophisticated inventory program.
 
 You have been provided with a mock-up of the user interface to use in the design and development of the system (see the attached “Software 1 GUI Mock-Up”) and a class diagram to assist you in your work (see the attached “UML Class Diagram”). The organization also has specific business requirements that must be considered for the application. A systems analyst created the solution statements outlined in the requirements section of this task based on the business requirements. You will use these solution statements to develop your application.
+
+__________________________________________________________________________________________________________________________________
+
 REQUIREMENTS
+
 Your submission must be your original work. No more than a combined total of 30% of the submission and no more than a 10% match to any one individual source can be directly quoted or closely paraphrased from sources, even if cited correctly. The originality report that is provided when you submit your task can be used as a guide.
 
 
@@ -261,7 +273,4 @@ H.  Provide a folder containing Javadoc files that were generated from the IDE o
 
 I.  Demonstrate professional communication in the content and presentation of your submission.
 
-File Restrictions
-File name may contain only letters, numbers, spaces, and these symbols: ! - _ . * ' ( )
-File size limit: 200 MB
-File types allowed: doc, docx, rtf, xls, xlsx, ppt, pptx, odt, pdf, txt, qt, mov, mpg, avi, mp3, wav, mp4, wma, flv, asf, mpeg, wmv, m4v, svg, tif, tiff, jpeg, jpg, gif, png, zip, rar, tar, 7z
+
