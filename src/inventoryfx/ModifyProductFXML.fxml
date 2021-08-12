@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="inventoryfx.ModifyProductFXMLController">
+    <children>
+      <GridPane layoutX="48.0" layoutY="91.0" prefHeight="246.0" prefWidth="376.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Label text="ID" />
+            <Label text="Name" GridPane.rowIndex="1" />
+            <Label text="Inv" GridPane.rowIndex="2" />
+            <Label text="Price" GridPane.rowIndex="3" />
+            <Label text="Max" GridPane.rowIndex="4" />
+            <TextField fx:id="tfModProdID" editable="false" promptText="Auto Gen" GridPane.columnIndex="1" />
+            <TextField fx:id="tfModProdName" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="tfModProdInv" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="tfModProdPrice" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="tfModProdMax" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Label text="Min" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <TextField fx:id="tfModProdMin" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Label layoutX="48.0" layoutY="54.0" text="Modify Product">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSave" layoutX="719.0" layoutY="438.0" mnemonicParsing="false" onAction="#saveProductButton" text="Save" />
+      <Button fx:id="btnCancel" layoutX="786.0" layoutY="438.0" mnemonicParsing="false" onAction="#setCancelButton" text="Cancel" />
+      <TableView fx:id="tvParts1" layoutX="488.0" layoutY="239.0" prefHeight="137.0" prefWidth="365.0">
+         <columns>
+            <TableColumn fx:id="colPartID1" prefWidth="67.0" text="Part ID" />
+            <TableColumn fx:id="colPartName1" prefWidth="86.0" text="Part Name" />
+            <TableColumn fx:id="colPartInvLavel1" prefWidth="91.0" text="Inventory Level" />
+            <TableColumn fx:id="colPartPrice1" prefWidth="119.0" text="Price/ Cost per Unit" />
+         </columns>
+      </TableView>
+      <TableView fx:id="tvParts" layoutX="488.0" layoutY="54.0" prefHeight="137.0" prefWidth="365.0">
+         <columns>
+            <TableColumn fx:id="colPartID" prefWidth="67.0" text="Part ID" />
+            <TableColumn fx:id="colPartName" prefWidth="86.0" text="Part Name" />
+            <TableColumn fx:id="colPartInvLavel" prefWidth="91.0" text="Inventory Level" />
+            <TableColumn fx:id="colPartPrice" prefWidth="119.0" text="Price/ Cost per Unit" />
+         </columns>
+      </TableView>
+      <TextField fx:id="tfPartSearch" layoutX="629.0" layoutY="29.0" onAction="#searchPart" prefHeight="25.0" prefWidth="180.0" promptText="Search by Parts ID or Name" />
+      <Button fx:id="btnAdd" layoutX="793.0" layoutY="202.0" mnemonicParsing="false" onAction="#addPartButton" text="Add" />
+      <Button fx:id="btnRemove" layoutX="706.0" layoutY="392.0" mnemonicParsing="false" onAction="#removePartButton" text="Remove Associated Part" />
+      <Button fx:id="btnProductClear" layoutX="810.0" layoutY="29.0" mnemonicParsing="false" onAction="#ClearSearchProducts" text="Clear" />
+   </children>
+</AnchorPane>
